@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Character Sheet</title>
+    <link rel="stylesheet" href="fixStyle.css" />
 </head>
 <body>
-    <form class="Basics">
-        <input type="text">
-        <label>Character Name</label>
+    <form class="basics">
+        <div class="name">
+            <input type="text"><br>
+            <label>Character Name</label>
+        </div>
 
-        <input type="text">
-        <label>Race</label>
-        <input type="text">
-        <label>Sub-Race</label>
+        <div class="background">
+            <input type="text"><br>
+            <label>Background</label>
+        </div>
+
+        <div class="race">
+            <input type="text">
+            <label>Race</label><br>
+            <input type="text">
+            <label>Sub-Race</label>
+        </div>
         
-        <input type="text">
-        <label>Class</label>
-        <input type="text">
-        <label>Sub-Class</label>
-
-        <input type="number" min="0" max="20">
-        <label>Level</label>
+        <div class="class">
+            <input type="text">
+            <label>Class</label><br>
+            <input type="text">
+            <label>Sub-Class</label><br>
+            <input type="number" min="0" max="20">
+            <label>Level</label>
+        </div>
     </form>
 </body>
 </html>

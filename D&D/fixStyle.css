@@ -1,0 +1,30 @@
+body {
+    background-color: #222222;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.basics{
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    display: flex;  
+}
+
+.name{
+    font-size: 24px;
+    padding-right: 2.5%;
+}
+
+.background{
+    padding-right: 2.5%;
+}
+
+.race{
+    padding-right: 2.5%;
+}
+
+.class{
+    padding-right: 2.5%;
+}

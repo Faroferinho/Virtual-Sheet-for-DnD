@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
+  <diagram name="Página-1" id="Cxkw65wYtmSkXtTTjStw">
+    <mxGraphModel dx="1035" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aybz1zDwedsFIjn72Z7v-1" value="Zacarias, o Mestre das Batalhas" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aybz1zDwedsFIjn72Z7v-2" target="aybz1zDwedsFIjn72Z7v-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1030" />
+              <mxPoint x="414" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-2" value="&lt;div&gt;Nome &amp;amp; Personalidade&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="104" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aybz1zDwedsFIjn72Z7v-3" target="aybz1zDwedsFIjn72Z7v-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-3" value="&lt;div&gt;Classes*&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="268" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-4" value="&lt;div&gt;*Plural por consideração&lt;/div&gt;&lt;div&gt;a multi-classes&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aybz1zDwedsFIjn72Z7v-5" target="aybz1zDwedsFIjn72Z7v-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-5" value="Raça" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="434" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aybz1zDwedsFIjn72Z7v-6" target="aybz1zDwedsFIjn72Z7v-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1030" />
+              <mxPoint x="414" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aybz1zDwedsFIjn72Z7v-6" value="&lt;div&gt;Background&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="604" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mArtZ4JlJMJj7NbFzrFm-1" target="aybz1zDwedsFIjn72Z7v-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mArtZ4JlJMJj7NbFzrFm-1" target="aybz1zDwedsFIjn72Z7v-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mArtZ4JlJMJj7NbFzrFm-1" target="aybz1zDwedsFIjn72Z7v-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-1" value="Features" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mArtZ4JlJMJj7NbFzrFm-5" target="aybz1zDwedsFIjn72Z7v-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mArtZ4JlJMJj7NbFzrFm-5" value="Campo de Texto próprio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

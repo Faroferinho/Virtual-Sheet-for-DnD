@@ -34,6 +34,11 @@
             <input type="number" min="0" max="20">
             <label>Level</label>
         </div>
+
+        <div class="alligment">
+            <input type="text">
+            <label>Alligment</label>
+        </div>
     </div>
     
     <div class="habilities">
@@ -165,5 +170,63 @@
             <label>Survival</label>
         </div>
     </div>
+    
+    <div class="combat">
+        <div class="health">
+            <input type="number">
+            <label>Cur HP</label>
+            <input type="number">
+            <label>Max HP</label>
+            <input type="number">
+            <label>Temp HP</label>
+        </div>
+
+        <div class="initiative">
+            <!--Conectar com a destreza-->
+            <p></p>
+        </div>
+
+        <div class="armor">
+            <input type="number">
+            <label>AC</label>
+        </div>
+
+        <div class="deathSave">
+            <label>Death Saves</label>
+            <div class="success">
+                <label>Success</label>
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+            <div class="failure">
+                <label>Failure</label>
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="conditions">
+            <label>Conditions</label>
+            <textarea>Conditions that you are aflicted with! (Stuned, Blinded, Compeled)</textarea>
+        </div>
+
+        <div class="attacks">
+            <!--Ditto from Equipment, just it's onw object-->
+            <label>Attacks</label>
+        </div>
+    </div>
+
+    <div class="equipment">
+        <!--Equipment MUST HAVE its onw objects, that can be cloned, just like Class-->
+        <label>Equipment</label>
+        <textarea>Equipment and Loot that you colected along your Jurney!</textarea>
+    </div>
+    
+    <div class="features">
+        <!--Ditto from Attacks-->
+    </div>
+
 </body>
 </html>

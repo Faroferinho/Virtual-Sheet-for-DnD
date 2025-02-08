@@ -31,7 +31,7 @@
             <label>Class</label><br>
             <input type="text">
             <label>Sub-Class</label><br>
-            <input type="number" min="0" max="20">
+            <input class="level" type="number" min="0" max="20">
             <label>Level</label>
         </div>
 
@@ -41,47 +41,47 @@
         </div>
     </div>
     
-    <div class="tests">
-        <div class="habilities">
-            <!--Alter mod to p or h3-->
-            <h1>Habilities & Scores</h1>
-            <div class="strenght">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Força</label>
-            </div>
-        
-            <div class="dextry">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Destreza</label>
-            </div>
-                
-            <div class="constitution">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Constituição</label>    
-            </div>
-
-            <div class="inteligence">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Inteligencia</label>
-            </div>
+    <h1 class="habilities">Habilities</h1>
+    <section class="habilities">
+        <!--Alter mod to p or h3-->
+        <div class="strenght">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Strenght</label>
+        </div>
+    
+        <div class="dexterity">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Dexterity</label>
+        </div>
             
-            <div class="wisdom">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Sabedoria</label>
-            </div>
-            
-            <div class="charisma">
-                <input type="number" class="mod"><br>
-                <input type="number" class="score"><br>
-                <label>Carisma</label>
-            </div>
+        <div class="constitution">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Constitution</label>    
         </div>
 
+        <div class="inteligence">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Inteligence</label>
+        </div>
+        
+        <div class="wisdom">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Wisdom</label>
+        </div>
+        
+        <div class="charisma">
+            <input type="number" class="mod" min="-5" max="10"><br>
+            <input type="number" class="score" min="0" max="30"><br>
+            <label>Charisma</label>
+        </div>
+    </section>
+
+    <div class="tests">
         <div class="skills">
             <h1>Skills</h1>
             <div class="acrobatics">
@@ -182,39 +182,40 @@
                 <label>Strenght</label>
             </div>
 
+            <div class="dexterity">
+                <input type="checkbox">
+                <label>Dexterity</label>
+            </div>
+
             <div class="constitution">
                 <input type="checkbox">
-                <label>Survival</label>
+                <label>Constitution</label>
             </div>
 
-            <div class="Survival">
+            <div class="inteligence">
                 <input type="checkbox">
-                <label>Survival</label>
+                <label>Inteligence</label>
             </div>
 
-            <div class="Survival">
+            <div class="wisdom">
                 <input type="checkbox">
-                <label>Survival</label>
+                <label>Wisdom</label>
             </div>
 
-            <div class="Survival">
+            <div class="charisma">
                 <input type="checkbox">
-                <label>Survival</label>
-            </div>
-
-            <div class="Survival">
-                <input type="checkbox">
-                <label>Survival</label>
+                <label>Charisma</label>
             </div>
         </div>
     </div>
     
     <div class="combat">
+        <h1>Combat</h1>
         <div class="health">
             <input type="number">
             <label>Cur HP</label>
             <input type="number">
-            <label>Max HP</label>
+            <label>Max HP</label><br>
             <input type="number">
             <label>Temp HP</label>
         </div>

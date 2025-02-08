@@ -1,16 +1,23 @@
 body {
     background-color: #222222;
     color: antiquewhite;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gabriola';
 }
 
 .basics{
     font-size: 14px;
     box-sizing: border-box;
     justify-content: center;
-    text-align: center;
     margin: 20px;
-    display: flex;  
+    display: flex;
+}
+
+.basics input{
+    width: 120px;
+}
+
+.name input{
+    width: 200px;
 }
 
 .name{
@@ -28,4 +35,29 @@ body {
 
 .class{
     padding-right: 2.5%;
+}
+
+.habilities{
+    display: flex;
+    justify-content: center;
+    float: center;
+}
+
+.strenght, .dexterity, .constitution, .inteligence, .wisdom, .charisma{
+    padding-right: 20px;
+}
+
+.skills{
+    width: 200px;
+    float: left;
+    padding-left: 15%;
+}
+
+.saving{
+    float: right;
+    padding-right: 15%;
+}
+
+.combat{
+    align-content: center;
 }
